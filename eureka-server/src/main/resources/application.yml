@@ -1,0 +1,23 @@
+server:
+#服务端口
+  port: 8761
+spring:
+  application:
+    name: eureka-server-2
+  profiles:
+    active: server2
+  security:
+    user:
+      name: eureka
+      password: 123456
+eureka:
+  instance:
+    hostname: server2
+  client:
+#    register-with-eureka: false
+#    fetch-registry: false
+    service-url:
+      defaultZone: http://server1:8762/eureka
+
+
+
