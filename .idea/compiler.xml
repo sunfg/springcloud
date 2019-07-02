@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="euraka-server1" />
         <module name="eurake-client" />
+        <module name="eureka-feign" />
         <module name="eureka-ribbon" />
         <module name="eureka-server" />
       </profile>
