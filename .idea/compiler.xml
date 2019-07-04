@@ -11,6 +11,7 @@
         <module name="eureka-feign" />
         <module name="eureka-ribbon" />
         <module name="eureka-server" />
+        <module name="eureka-zuul" />
       </profile>
     </annotationProcessing>
   </component>

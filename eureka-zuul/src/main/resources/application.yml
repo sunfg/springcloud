@@ -1,0 +1,14 @@
+server:
+  port: 8761
+eureka:
+  client:
+    service-url:
+      defaultZone: http://server1:8762/eureka
+spring:
+  application:
+    name: rureka-zuul
+zuul:
+  routes:
+    hiapi:
+      path: /hi/**
+      serviceId: eureka-client
